@@ -15,9 +15,10 @@ a {
 
 
 h1  {
-  font-family: 'Baloo Chettan', cursive;
-  font-size: 30px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 40px;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 h2  {
@@ -48,7 +49,7 @@ h2  {
 
 .card {
   background-color: white;
-  height: 400px;
+  height: 500px;
   text-align: center;
   border: 1px solid #e9e4e6;
   padding: 40px;

@@ -1,0 +1,114 @@
+body  {
+  background-color: #f6f5f5;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: 1d1919;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+h1  {
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+h2  {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+#img_profile_circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.btn_blue {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #e9e4e6;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.btn_blue:hover {
+  background-color: red;
+}
+
+
+
+.card {
+  background-color: white;
+  height: 400px;
+  text-align: center;
+  border: 1px solid #e9e4e6;
+  padding: 40px;
+  box-shadow: 2px 2px 2px #e9e4e6;
+  margin: 20px 0px;
+}
+
+#icons .fab {
+  font-size: 25px;
+  color: #dadddf;
+}
+
+#icons .fab:hover {
+  color: red;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.small_pic {
+  width: 50px;
+  height: 50px;
+}
+
+#icons{
+  height: 100px;
+}
+
+#list_inline li {
+
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+
+
